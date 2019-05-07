@@ -1,0 +1,28 @@
+{
+  "access_token": "xxx",
+  "YunPian":{
+    "enable": false,
+    "apiKey": "123456789",
+    "phones":["123456789"],
+    "smsPrefix": ""
+  },
+  "mail":{
+    "enable": true,
+    "username": "ad-data@test.com.cn",
+    "password": "xx",
+    "smtp": "smtpserver",
+    "to": ["will@test.com.cn"]
+  }, 
+  "testItem":[
+    {
+      "name":"api-test",
+      "url":"/test_api.cgi?signKey=d28105da-4703-11e9-9a0f-faxxxxe0xxxx5c&startTime=20190102&endTime=20190103&series_id=69",
+      "httpProto": "http",
+      "requestTimeout": "20s",
+      "serverList":{
+        "api.test.com.cn": "测试"
+      },
+      "interval": "60s"
+    }
+  ]
+}
